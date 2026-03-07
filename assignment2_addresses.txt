@@ -1,0 +1,76 @@
+Legacy (P2PKH): 16qmDXSnGh5VjVdKRimyCwTfYyyiE3PxNN
+Bech32 (P2WPKH segwit v0): bc1qqc4nhsm7uy24lfasya86rcrwfdfhln5s09r34a
+Bech32m (P2TR taproot v1): bc1p73j3p5wn0374dcswmwed8rmf6spy7tgwcrljegnvu84wqqyw56fsvjla3j
+
+
+=== getaddressinfo for Legacy ===
+{
+  "address": "16qmDXSnGh5VjVdKRimyCwTfYyyiE3PxNN",
+  "scriptPubKey": "76a91440118133e7eb683437b074ebaaf4e443ffb81f5a88ac",
+  "ismine": true,
+  "solvable": true,
+  "desc": "pkh([c63020da/44h/0h/0h/0/0]0378610bb86cf9f8ee4b371da8b7603cf3f18ce90ebc4f74aa1f9a07bbf8f0496b)#d64gl7nn",
+  "parent_desc": "pkh([c63020da/44h/0h/0h]xpub6CXhmu977i9ebWDdz756m4EGiVd2apqVGmoEb7SdKCvWdKqv72En2hEhmUTu9E7sfV5LLs7pVTr8uGgpzvWtY6pSehKeUWYLDDSSruyUE3e/0/*)#ck7qkl9p",
+  "iswatchonly": false,
+  "isscript": false,
+  "iswitness": false,
+  "pubkey": "0378610bb86cf9f8ee4b371da8b7603cf3f18ce90ebc4f74aa1f9a07bbf8f0496b",
+  "iscompressed": true,
+  "ischange": false,
+  "timestamp": 1772893717,
+  "hdkeypath": "m/44h/0h/0h/0/0",
+  "hdseedid": "0000000000000000000000000000000000000000",
+  "hdmasterfingerprint": "c63020da",
+  "labels": [
+    ""
+  ]
+}
+
+
+=== getaddressinfo for Bech32 ===
+{
+  "address": "bc1qqc4nhsm7uy24lfasya86rcrwfdfhln5s09r34a",
+  "scriptPubKey": "0014062b3bc37ee1155fa7b0274fa1e06e4b537fce90",
+  "ismine": true,
+  "solvable": true,
+  "desc": "wpkh([c63020da/84h/0h/0h/0/0]0369cd1bd13ce2eb425254895252b942552c22ab3fc9088e6651df5080ab439b48)#vurlqnfv",
+  "parent_desc": "wpkh([c63020da/84h/0h/0h]xpub6DSma4vRPdRfiieVw2epxPteUsthihdTc26PMuN58NVW8L5AXePaq74eSM9HVq2JsgxUQaUZFBGCrzAB8g2j2CD2PPWDKK5vyXcotBtmt2L/0/*)#hw309f2l",
+  "iswatchonly": false,
+  "isscript": false,
+  "iswitness": true,
+  "witness_version": 0,
+  "witness_program": "062b3bc37ee1155fa7b0274fa1e06e4b537fce90",
+  "pubkey": "0369cd1bd13ce2eb425254895252b942552c22ab3fc9088e6651df5080ab439b48",
+  "ischange": false,
+  "timestamp": 1772893717,
+  "hdkeypath": "m/84h/0h/0h/0/0",
+  "hdseedid": "0000000000000000000000000000000000000000",
+  "hdmasterfingerprint": "c63020da",
+  "labels": [
+    ""
+  ]
+}
+
+
+=== getaddressinfo for Bech32m ===
+{
+  "address": "bc1p73j3p5wn0374dcswmwed8rmf6spy7tgwcrljegnvu84wqqyw56fsvjla3j",
+  "scriptPubKey": "5120f46510d1d37c7d56e20edbb2d38f69d4024f2d0ec0ff2ca26ce1eae0008ea693",
+  "ismine": true,
+  "solvable": true,
+  "desc": "tr([c63020da/86h/0h/0h/0/0]4665f6507a7952dc3cd9e18977700deca3956d7787944adf5752b1cc2622b09b)#x8sah269",
+  "parent_desc": "tr([c63020da/86h/0h/0h]xpub6D89WvEzvjQK57L6qCXm3cfT12tVvD8HGGTBu9t2kFtvjALA5FQuzGNy91NjA1YCdvMq9dUegkYxbYSxHW5Y1NhVsx9HTWywomYKUWcHdPz/0/*)#7gmzcz9c",
+  "iswatchonly": false,
+  "isscript": true,
+  "iswitness": true,
+  "witness_version": 1,
+  "witness_program": "f46510d1d37c7d56e20edbb2d38f69d4024f2d0ec0ff2ca26ce1eae0008ea693",
+  "ischange": false,
+  "timestamp": 1772893718,
+  "hdkeypath": "m/86h/0h/0h/0/0",
+  "hdseedid": "0000000000000000000000000000000000000000",
+  "hdmasterfingerprint": "c63020da",
+  "labels": [
+    ""
+  ]
+}
