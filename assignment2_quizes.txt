@@ -1,0 +1,11 @@
+
+
+1.) Difference between hardened and non-hardened keys (BIP-32)
+
+The difference between hardened and non-hardened keys is mainly about security and how new keys are derived. A non-hardened key can be created using a parent public key, which means someone with the extended public key can generate many receiving addresses without accessing private keys. However, if a child private key and the parent public key are both exposed, it could be possible to figure out the parent private key. A hardened key, on the other hand, is generated using the parent private key, so it cannot be derived from the public key alone. This makes hardened keys more secure, but it also means you cannot generate them using only public information.
+
+
+2.) Why prefer deterministic (HD) wallets over non-deterministic wallets
+
+A wallet developer should prefer Deterministic Wallets over Non-deterministic Wallets mainly because deterministic wallets are easier to manage, back up, and restore. In a deterministic wallet, all private keys and addresses are generated from a single master seed using a predictable algorithm, often following standards like BIP32. This means the user only needs to back up one seed phrase to recover the entire wallet and all future addresses. In contrast, non-deterministic wallets generate keys randomly, so every private key must be backed up individually; if a backup is missed, the funds associated with that key can be lost forever. Deterministic wallets also allow features like hierarchical key structures and watch-only wallets, making them more practical, scalable, and secure for modern cryptocurrency applications such as those built for Bitcoin.
+
